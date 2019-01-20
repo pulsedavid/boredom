@@ -1,0 +1,40 @@
+{
+  "name": "bored.inc",
+  "version": "1.0.0",
+  "description": "I will give things to do fam",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "date-fns": "1.30.1",
+    "eslint-plugin-react": "^7.12.3",
+    "normalize.css": "8.0.1",
+    "react": "next",
+    "react-dom": "next",
+    "react-rewards": "1.0.7",
+    "react-scripts": "2.0.3",
+    "styled-components": "4.1.3"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "npm run format && npm run lint",
+    "eject": "react-scripts eject",
+    "format": "prettier --single-quote --trailing-comma es5 --write 'src/**/*.js'",
+    "lint": "eslint 'src/**/*.js' --cache --fix"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "license": "MIT"
+}
